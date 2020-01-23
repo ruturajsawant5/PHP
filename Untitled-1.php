@@ -5,14 +5,14 @@
     echo "<h1>Original Array</h1>";
     foreach($my_array as $a)
     echo $a."</br>";
-
+      
     array_push($my_array,"yellow");
 
     echo "<h1>Push</h1>";
     foreach($my_array as $a)
     echo $a."</br>";
 
-    array_pop($my_array);
+     array_pop($my_array);
 
     echo "<h1>Pop</h1>";
     foreach($my_array as $a)
@@ -40,12 +40,7 @@
     echo $a."</br>";
 
     $keys = array_keys($merged_array);
-    // echo "<h1>Keys</h1>";
-    // for ($x = 0; $x <= 4; $x++) {
-    //     echo "The key is:". $keys[$x]." <br>";
-    // }
-    // echo $a."</br>";
-
+    
     $values = array_values($merged_array);
     echo "<h1>Key - Values</h1>";
     for ($x = 0; $x <= 4; $x++) {
@@ -78,3 +73,4 @@ foreach($new_array as $a)
 foreach($merged_array as $a)
     echo $a."</br>";
 ?>
+
