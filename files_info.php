@@ -1,5 +1,6 @@
 <?php
     $a="abc.php";
+    // $a="C:\wamp\www";
     if(file_exists($a))
         echo "File is exist</br>";
     else
