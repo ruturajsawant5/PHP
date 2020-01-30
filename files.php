@@ -1,5 +1,4 @@
 <?php
-    $add = include("abc.php");
-    echo "result".$add;
-
+$add = include("abc.php");
+echo "result" . $add;
 ?>
