@@ -4,8 +4,9 @@
     </head>
     <body>
 <?php
-$email= $_COOKIE['email'];
-$pass= $_COOKIE['password'];
+session_start();
+$email= $_SESSION['email'];
+$pass= $_SESSION['password'];
 echo "Logged in with $email and password $pass"
 ?>
     </body>
